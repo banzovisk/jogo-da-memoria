@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;
+}
+
+.informe{
+    width: 502px;
+    height: 20px;
+    text-align: center;
+    margin: 50px auto;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#game{
+    width: 31.389em;
+    height:200px;
+    margin:100px auto;
+    border: solid 1px silver;
+}
+
+.game-btn{
+    width:100px;
+    height:100px;
+    float:left;
+    cursor:pointer;
+    border:solid 1px silver;
+}
+
+#blockclick{
+    width:100%;
+    height:5000px;
+    background:#fff;
+    opacity:0;
+    position:fixed; top:0px; left:0px; right:0px; bottom:0px;
+    z-index:9999;
+}
